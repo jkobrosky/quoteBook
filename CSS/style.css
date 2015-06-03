@@ -1,0 +1,31 @@
+html, body {
+	margin: 5px;
+	padding: 5px;
+}
+
+li {
+	display: flex;
+	margin: 10px -20px;
+	border-bottom: 1px solid #dcdcdc;
+}
+
+.title {
+	font-size: 3em;
+	margin: 10px auto;
+}
+
+.filterBy {
+	width: 260px;
+}
+
+.remove {
+	width: 260px;
+}
+
+.pendingDelete {
+	background-color: pink;
+}
+
+.notPending {
+	background-color: #fff;
+}
